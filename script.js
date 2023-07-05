@@ -65,6 +65,7 @@ function hoverstrike(i) {
     let tickbtn = document.querySelectorAll(".completeBtn");
     tickbtn[i].src = "images/checkhoverstrike.png";
     let popuptxt = document.querySelectorAll(".check-text");
+    popuptxt[i].innerHTML = "Task Completed!!";
     popuptxt[i].style.visibility = "visible";
 }
 function hoverunstrike(i) {
@@ -78,7 +79,6 @@ function unhoverstrike(i) {
     let tickbtn = document.querySelectorAll(".completeBtn");
     tickbtn[i].src = "images/checkbefore.png";
     let popuptxt = document.querySelectorAll(".check-text");
-    popuptxt[i].innerHTML = "Task Completed!!";
     popuptxt[i].style.visibility = "hidden";
 }
 function unhoverunstrike(i) {
