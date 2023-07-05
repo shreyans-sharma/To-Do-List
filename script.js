@@ -21,7 +21,6 @@ function displayList() {
                     <div class="input-task">
                         <div class="task-complete">
                             <span class="check-text">
-                                Task Completed!!
                             </span>
                             <img src="images/checkbefore.png" alt="#" class="completeBtn">
                         </div>
